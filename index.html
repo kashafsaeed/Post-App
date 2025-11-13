@@ -1,24 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Post-App</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
 
 </head>
+
 <body>
 
 
-    
+    <div class="container-fluid">
+
+        <div class="row ">
+            <div class="col-16 text-center my-4">
+                <h1>Post-App</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 coll-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="postForm">
+                            <div class="mb-3">
+                                <label for="title" class="form-label">Title</label>
+                                <input type="text" class="form-control" id="title" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="body" class="form-label">Description</label>
+                                <textarea class="form-control" id="body" rows="3" required></textarea>
+                            </div>
+                            <div class="mb-0">
+                                <label for="body" class="form-label"> Images</label>
+                            </div>
+
+                            <div class="mt-0 p-3  " id="postsContainer">
+                                <img src="images/anya-chernykh-Fp7N0fyD7yg-unsplash.jpg" alt="" class="images">
+                                <img src="images/george-pisarevsky-KXK0DMVinGU-unsplash.jpg" alt="" class="images">
+                                <img src="images/mitchell-luo-nW4c716rEsg-unsplash.jpg" alt="" class="images">
+                                <img src="images/the-walters-art-museum-9FXGfvtc2Lk-unsplash.jpg" alt="" class="images">
+                                <img src="images/aleksandra-dementeva-mp8bFOqfdEE-unsplash.jpg" alt="" class="images">
+
+                            </div>
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+                        </form>
+                        <div class="d-grid gap-3 col-3 mx-auto mt-3">
+                            <button type="submit" class="btn ">Add Post</button>
 
-  <script src="app.js"></script>
+                        </div>
+                        <div class="col-8">
+                            <div id="post">
+
+                            </div>
+                        </div>
+
+                      
+
+
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+              <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Sample Post Title</h5>
+                                <p class="card-text">This is a sample description for the post. It provides more details about the post content.</p>
+                                <img src="images/anya-chernykh-Fp7N0fyD7yg-unsplash.jpg" alt="" class="images">
+                        </div>
+
+
+
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+            <script src="app.js"></script>
 </body>
+
 </html>
