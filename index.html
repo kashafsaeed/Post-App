@@ -33,8 +33,8 @@
                                 <input type="text" class="form-control" id="title" required>
                             </div>
                             <div class="mb-3">
-                                <label for="body" class="form-label">Description</label>
-                                <textarea class="form-control" id="body" rows="3" required></textarea>
+                                <label for="description" class="form-label">Description</label>
+                                <textarea class="form-control" id="body" rows="3" required  id="description"></textarea>
                             </div>
                             <div class="mb-0">
                                 <label for="body" class="form-label"> Images</label>
@@ -48,12 +48,9 @@
                                 <img src="images/aleksandra-dementeva-mp8bFOqfdEE-unsplash.jpg" alt="" class="images">
 
                             </div>
-
-
-
                         </form>
                         <div class="d-grid gap-3 col-3 mx-auto mt-3">
-                            <button type="submit" class="btn ">Add Post</button>
+                            <button type="submit" class="btn " onclick="post()" >Add Post</button>
 
                         </div>
                         <div class="col-8">
@@ -62,10 +59,7 @@
                             </div>
                         </div>
 
-                      
-
-
-
+                    
                     </div>
                 </div>
 
